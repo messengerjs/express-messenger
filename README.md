@@ -2,6 +2,10 @@
 
 > Solid, extensible middleware for Facebook Messenger bots running on Express
 
+<a target='_blank' rel='nofollow' href='https://app.codesponsor.io/link/7WPHx1LeH7GTS36ys4vPHSLy/AndreasPizsa/express-messenger'>
+  <img alt='Sponsor' width='888' height='68' src='https://app.codesponsor.io/embed/7WPHx1LeH7GTS36ys4vPHSLy/AndreasPizsa/express-messenger.svg' />
+</a>
+
 ## Installation
 
 ```sh
@@ -32,6 +36,12 @@ app.post('/',
 ## Related Projects
 
 [messenger-body](https://github.com/AndreasPizsa/messenger-body) – framework agnostic body parser and processor for Facebook Messenger bots.
+
+## Sponsor
+
+<a target='_blank' rel='nofollow' href='https://app.codesponsor.io/link/7WPHx1LeH7GTS36ys4vPHSLy/AndreasPizsa/express-messenger'>
+  <img alt='Sponsor' width='888' height='68' src='https://app.codesponsor.io/embed/7WPHx1LeH7GTS36ys4vPHSLy/AndreasPizsa/express-messenger.svg' />
+</a>
 
 ## License
 
