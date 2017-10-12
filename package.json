@@ -18,8 +18,8 @@
     "node": ">=8"
   },
   "scripts": {
-    "test": "npm run lint && nyc mocha",
     "lint": "eslint **/*.js",
+    "test": "npm run lint && nyc mocha",
     "commit": "git cz",
     "commitmsg": "validate-commit-msg",
     "precommit": "npm test",
