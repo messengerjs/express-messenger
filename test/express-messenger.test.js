@@ -57,7 +57,8 @@ describe('express-messenger', function () {
   })
 
   it('continues to next middleware after processing the `req.body`', function () {
-    const { app } = createServer({ endRequest: false })
+    const { app, messenger } = createServer()
+    messenger.next()
     const middlewareSpy = sinon.spy(function (req, res, next) { next() })
     app.use(middlewareSpy)
     return request(app)
