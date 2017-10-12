@@ -27,7 +27,12 @@
   },
   "keywords": [
     "express",
-    "messenger"
+    "facebook",
+    "messenger",
+    "bot",
+    "middleware",
+    "express-middleware",
+    "messenger-core"
   ],
   "devDependencies": {
     "@andreaspizsa/eslint-config": "0.0.1",
@@ -50,7 +55,7 @@
     "validate-commit-msg": "^2.14.0"
   },
   "dependencies": {
-    "messenger-body": "^0.1.0"
+    "messenger-core": "latest"
   },
   "config": {
     "commitizen": {

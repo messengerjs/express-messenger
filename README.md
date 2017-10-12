@@ -1,10 +1,6 @@
 # express-messenger [![NPM version](https://badge.fury.io/js/express-messenger.svg)](https://npmjs.org/package/express-messenger) [![Build Status](https://travis-ci.org/AndreasPizsa/express-messenger.svg?branch=master)](https://travis-ci.org/AndreasPizsa/express-messenger)
 
-> Solid, extensible middleware for Facebook Messenger bots running on Express
-
-<a target='_blank' rel='nofollow' href='https://app.codesponsor.io/link/7WPHx1LeH7GTS36ys4vPHSLy/AndreasPizsa/express-messenger'>
-  <img alt='Sponsor' width='888' height='68' src='https://app.codesponsor.io/embed/7WPHx1LeH7GTS36ys4vPHSLy/AndreasPizsa/express-messenger.svg' />
-</a>
+> run your Messenger bot on Express
 
 ## Installation
 
@@ -35,7 +31,7 @@ app.post('/',
 
 ## Related Projects
 
-[messenger-body](https://github.com/AndreasPizsa/messenger-body) – framework agnostic body parser and processor for Facebook Messenger bots.
+[messenger-core](https://github.com/AndreasPizsa/messenger-core) – Write-once, run-anywhere Messenger bots.
 
 ## Sponsor
 

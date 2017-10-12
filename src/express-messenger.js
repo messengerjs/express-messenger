@@ -1,4 +1,5 @@
-const ProcessMessengerBody = require('messenger-body')
+
+const ProcessMessengerBody = require('messenger-core')
 
 /**
  * + Handle Facebook Messenger messages
@@ -11,17 +12,23 @@ const ProcessMessengerBody = require('messenger-body')
  * ## `options`
  */
 module.exports = function (options) {
-  options = options || {}
-  if (options.endRequest === undefined) options.endRequest = true
+  let callNext = false
   const processMessengerBody = ProcessMessengerBody(options)
   const middleware = function expressMessengerMiddleware (req, res, next) {
     const context = { http: { req, res } }
     processMessengerBody(req.body, context)
       .then(function (result) {
-        if (options.endRequest) return res.sendStatus(200)
-        return next()
+        res.status(200)
+        return callNext
+          ? next()
+          : res.end()
       })
+      .catch(next)
   }
   middleware.use = processMessengerBody.use
+  middleware.next = function () {
+    callNext = true
+  }
+
   return middleware
 }
