@@ -23,7 +23,8 @@
     "commit": "git cz",
     "commitmsg": "validate-commit-msg",
     "precommit": "npm test",
-    "prepublish": "npm test"
+    "prepublishOnly": "npm test",
+    "preversion": "npm test"
   },
   "keywords": [
     "express",
