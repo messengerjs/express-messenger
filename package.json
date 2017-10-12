@@ -1,7 +1,7 @@
 {
   "name": "express-messenger",
   "description": "Solid, extensible middleware for Facebook Messenger bots running on Express",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "homepage": "https://github.com/AndreasPizsa/express-messenger",
   "author": "Andreas Pizsa (https://github.com/AndreasPizsa)",
   "repository": "AndreasPizsa/express-messenger",
