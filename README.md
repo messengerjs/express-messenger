@@ -1,5 +1,7 @@
 # express-messenger [![NPM version](https://badge.fury.io/js/express-messenger.svg)](https://npmjs.org/package/express-messenger) [![Build Status](https://travis-ci.org/AndreasPizsa/express-messenger.svg?branch=master)](https://travis-ci.org/AndreasPizsa/express-messenger)
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/AndreasPizsa/express-messenger.svg)](https://greenkeeper.io/)
+
 > run your Messenger bot on Express
 
 ## Installation
