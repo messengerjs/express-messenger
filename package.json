@@ -24,7 +24,8 @@
     "commitmsg": "validate-commit-msg",
     "precommit": "npm test",
     "prepublishOnly": "npm test",
-    "preversion": "npm test"
+    "preversion": "npm test",
+    "report-coverage": "nyc report --reporter=lcov > coverage.lcov && codecov"
   },
   "keywords": [
     "express",
@@ -39,6 +40,7 @@
     "@andreaspizsa/eslint-config": "0.0.1",
     "body-parser": "^1.18.2",
     "chai": "^4.1.2",
+    "codecov": "^2.3.0",
     "commitizen": "^2.9.6",
     "cz-conventional-changelog": "^2.0.0",
     "eslint": "^4.8.0",

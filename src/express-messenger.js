@@ -1,5 +1,5 @@
 
-const ProcessMessengerBody = require('messenger-core')
+const MessengerCore = require('messenger-core')
 
 /**
  * + Handle Facebook Messenger messages
@@ -13,7 +13,7 @@ const ProcessMessengerBody = require('messenger-core')
  */
 module.exports = function (options) {
   let callNext = false
-  const processMessengerBody = ProcessMessengerBody(options)
+  const processMessengerBody = MessengerCore(options)
   const middleware = function expressMessengerMiddleware (req, res, next) {
     const context = { http: { req, res } }
     processMessengerBody(req.body, context)
